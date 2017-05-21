@@ -1,0 +1,19 @@
+.myslider , .myslider .slider_wapper{
+    overflow: hidden;
+    position: relative;
+}
+.myslider .slider_wapper> *{
+    width:0;
+    height: 0;
+    opacity:0;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.myslider .slider_wapper> *.active{
+    height: auto;
+    width:auto;
+    opacity:1;
+}
+.myslider  .slider-controls .slide-prev,.myslider  .slider-controls .slide-next{position:absolute;top:50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);cursor: pointer;height: 50px;width: 30px;font-size: 0;}
+.myslider  .slider-controls .slide-prev{left:15px;background: url('../assets/images/prev.png');}
+.myslider  .slider-controls .slide-next{right:15px;background: url(../assets/images/next.png);}

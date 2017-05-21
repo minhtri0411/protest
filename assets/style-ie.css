@@ -1,0 +1,17 @@
+ul#list-menu{
+  display: table;
+  width: 100%;
+}
+.main_slider  .slider-paginate{
+  display: block;
+  padding: 12px 6px;
+}
+.mobile-navigation{
+  background-color: #ffc900;
+}
+#footer .box_quick-links, #footer .box_newsletter{
+  min-height: 136px;
+}
+.content-news{
+  max-width: 100%;
+}
